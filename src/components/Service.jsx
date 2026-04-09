@@ -9,7 +9,7 @@ const Service = () => {
     return (
         <>
             <div className='service'>
-                <div className="container">
+                <div className="container py-5">
                     <h2 className='section-title pb-4 mb-4'>Service</h2>
                     <p>Necessitatibus eius consequatur ex aliquid fuga eum quidem sint consectetur velit</p>
                 </div>

@@ -12,7 +12,7 @@ const About = () => {
                     <p>Necessitatibus eius consequatur ex aliquid fuga eum quidem sint consectetur velit</p>
                 </div>
                 <div className="container">
-                    <div className="row">
+                    <div className="row" data-aos="fade-right">
                         <div className="col-lg-4">
                             <img src={profile} alt="" className='img-fluid' />
                         </div>
@@ -21,7 +21,7 @@ const About = () => {
                                 <h2 className='play-fair fw-bold'>UI/UX Designer & Web Developer.</h2>
                                 <p className='fst-italic py-3'>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
                             </div>
-                            <div className="row">
+                            <div className="row" data-aos="fage-left" >
                                 <div className="col-lg-6">
                                     <ul className='list-unstyled mb-3'>
                                         <li>
