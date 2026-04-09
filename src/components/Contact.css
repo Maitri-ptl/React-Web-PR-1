@@ -1,0 +1,28 @@
+.info-icon{
+    color: var(--accent-color);
+    background:
+        color-mix(in srgb, var(--accent-color), transparent 92%);
+    font-size: 20px;
+    width: 44px;
+    height: 44px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 50px;
+    transition: all 0.3s ease-in-out;
+    margin-right: 15px;
+}
+
+.form-control{
+    border: 0;
+    border: 1px solid var(--accent-color);
+}
+
+button{
+    color: var(--contrast-color);
+    background: var(--accent-color);
+    border: 0;
+    padding: 10px 30px;
+    transition: 0.4s;
+    border-radius: 50px;
+}

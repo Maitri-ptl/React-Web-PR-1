@@ -1,0 +1,40 @@
+.footer {
+    color: var(--heading-color);
+}
+
+.footer h2 {
+    margin-bottom: 15px;
+}
+
+.footer p {
+    font-style: italic;
+    margin-bottom: 30px;
+}
+
+.footer .social-media a {
+    font-size: 18px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background: var(--accent-color);
+    color: var(--contrast-color);
+    line-height: 1;
+    margin: 0 4px;
+    border-radius: 50%;
+    text-align: center;
+    width: 36px;
+    height: 36px;
+    transition:all 0.3s ease;
+}
+
+.footer .social-media a:hover{
+    background: #f6559b;
+}
+
+.footer .credits p{
+    font-style: normal;
+}
+
+.footer .credits span{
+    color: var(--accent-color);
+}

@@ -1,0 +1,8 @@
+.progress{
+    height: 10px;
+}
+
+.progress-bar{
+    background: var(--accent-color) !important;
+}
+
